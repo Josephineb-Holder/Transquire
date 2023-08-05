@@ -1,0 +1,101 @@
+html {
+  font-family: "Open Sans" sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0px !important;
+}
+
+header {
+  height: 40rem;
+  /* background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg); */
+  /* background-image: url(https://cdn.pixabay.com/photo/2017/03/28/22/55/night-photograph-2183637_640.jpg); */
+  /* background-image: url(https://images.unsplash.com/photo-1570284613060-766c33850e00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdhbGF4eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60); */
+  background-image: url(https://cdn.stocksnap.io/img-thumbs/280h/blue-night_DBUU6N5YUY.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background-image: linear-gradient(
+    135deg,
+    #3a7ca5 0,
+    #6a5d95 68%,
+    #6a5d95 100%
+  );
+  height: 40rem;
+  opacity: 80%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: transparent;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  max-height: 110px;
+  padding: 0.8rem 2rem 0.8rem;
+  margin-left: 17rem;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 3rem 15rem 0px 0px;
+}
+
+nav ul li {
+  padding: 7px 10px;
+}
+
+nav ul li :hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+figure {
+  overflow: hidden;
+  max-height: 65px;
+}
+
+.scrolled {
+  background-color: white;
+  padding-bottom: 1.1rem;
+}
+
+.image-style {
+  position: absolute;
+  overflow: visible;
+  display: flex;
+  bottom: 23px;
+  justify-content: center;
+  align-items: center;
+}
