@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
     navbar.classList.add("scrolled");
     navbar.style.animation = "fadeOut 0.1s";
     for (const link of links) {
-      link.style.color = "blue";
+      link.style.color = "#3e88be";
       image.classList.add("image-style");
     }
   } else {
