@@ -449,14 +449,14 @@ main :hover .robot > .robot-text > .robot-img {
   }
 }
 
-/* .image-style {
+.image-style {
   position: absolute;
   overflow: visible;
   display: flex;
   bottom: 23px;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /* Services Styles */
 .who-header {
@@ -482,7 +482,13 @@ main :hover .robot > .robot-text > .robot-img {
 }
 
 .who-text {
+  /* padding-right: 5rem; */
+  text-align: justify;
   line-height: 1.5em;
+}
+
+.who-text > .first-p {
+  padding-right: 7rem;
 }
 
 .who-text > p > a {
@@ -491,7 +497,7 @@ main :hover .robot > .robot-text > .robot-img {
   text-decoration: none;
 }
 
-.who-text > p > a,
+.who-text > p > a:hover,
 .service-icon > div > h3 :hover {
   color: #0e87eb;
   transition: color 0.3s ease-in;
@@ -505,7 +511,7 @@ main :hover .robot > .robot-text > .robot-img {
 }
 
 .who-ban > .ban-img > img {
-  width: 30rem;
+  width: 27rem;
   margin-top: -2rem;
   transition: transform 0.5s ease-in-out;
 }
@@ -881,8 +887,11 @@ time {
 }
 
 .contact-one {
+  color: white;
   margin-top: 20rem;
+  margin-bottom: 7rem;
   display: flex;
+  flex-direction: column;
   padding: 0px 20rem;
   text-align: center;
   justify-content: center;
@@ -890,13 +899,36 @@ time {
 }
 
 form {
+  width: 55%;
   display: flex;
   flex-direction: column;
 }
 
+.form-text {
+  text-align: left;
+  margin: 1rem 11rem 0px 0rem;
+}
+
+.form-text > button {
+  margin: 2rem 0px;
+  padding: 5px;
+  width: 6rem;
+}
+
 input,
 textarea {
+  border: none;
   margin-top: 2rem;
+  background-color: rgba(245, 245, 245, 0.138);
+}
+
+label {
+  margin-top: 2rem;
+  text-align: start;
+}
+
+input {
+  height: 2.5rem;
 }
 
 aside {
@@ -920,6 +952,10 @@ aside {
   vertical-align: top;
 }
 
+.t-image {
+  text-align: center;
+}
+
 .aside-text {
   display: flex;
   /* justify-content: center; */
@@ -936,7 +972,6 @@ aside {
 .quicklinks {
   /* width: 15rem; */
   margin: 1.5rem;
-  /* background-color: red; */
 }
 
 .headquaters {
@@ -957,19 +992,26 @@ hr {
 
 .linkin-share > a {
   display: inline-block;
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin: 4.8px;
+  width: 38px;
+  height: 38px;
+  margin: 2rem 5rem 1px 5rem;
   border-radius: 10px;
+  text-align: center;
   text-decoration: none !important;
   background-color: whitesmoke;
+}
+
+.linkin-share > span > a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  text-decoration: none;
 }
 
 .copy {
   display: flex;
   font-size: 13px;
-  margin-left: 20rem;
+  margin-left: 22rem;
   margin-top: 11rem;
   padding-bottom: 2rem;
 }

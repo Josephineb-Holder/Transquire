@@ -12,6 +12,18 @@
       rel="stylesheet"
     />
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script
+    src="https://kit.fontawesome.com/a076d05399.js"
+    crossorigin="anonymous"
+  ></script>
+
     <title>Capitolridgellc</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- <link
@@ -48,22 +60,117 @@
               <a href="/news.html">News</a>
             </li>
   
-            <li class="active">
-              <a href="/contact.html">Contact</a>
+            <li >
+              <a class="active" href="/contact.html">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
     <main>
       <section class="contact-one">
+        <h1>Contact Taqnia</h1>
+        <p>Tell us about your company or inquire about one of our services.</p>
         <form action="">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <label for="name">Name <span style="color: red;">*</span></label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email <span style="color: red;">*</span></label>
+          <input type="email" name="email" id="email" />
+          <label for="subject">Subject <span style="color: red;">*</span></label>
+          <input type="text" name="subject" id="subject" />
+          <label for="massage">Massage <span style="color: red;">*</span></label>
+            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
         </form>
+        <div class="form-text">
+          <span style="font-size: 14px;">Our Privacy Terms Apply</span><br>
+          <button class="r-btn">Send</button><br>
+          <small style="color:  #ad7ac1; font-size: 13px;">Note: Please Fill Out The Fields Mark With Asterisk</small>
+        </div>
+        
         </div>
       </section>
+
+      <aside class="aside-sec">
+        <div class="aside sub">
+          <div class="t-image">
+            <div>
+              <img
+                srcset="
+                  https://image.jimcdn.com/app/cms/image/transf/none/path/s828439b49265f3e4/image/ifafa181c445b8132/version/1447603010/image.png 120w
+                "
+                sizes="(min-width: 120px) 120px, 100vw"
+                id="cc-m-imagesubtitle-image-8707143582"
+                src="https://image.jimcdn.com/app/cms/image/transf/none/path/s828439b49265f3e4/image/ifafa181c445b8132/version/1447603010/image.png"
+                alt=""
+                class=""
+                data-src-width="120"
+                data-src-height="180"
+                data-src="https://image.jimcdn.com/app/cms/image/transf/none/path/s828439b49265f3e4/image/ifafa181c445b8132/version/1447603010/image.png"
+                data-image-id="6005509982"
+              />
+            </div>
+
+            <div>
+              <p>TAQNIA INTERNATIONAL Inc.</p>
+            </div>
+
+            <div class="linkin-share">
+              <a class="fotter-icon"
+              class="cc-sharebuttons-linkedin"
+              href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.taqniainternational.com/2016/09/21/solar-junction-teams-up-with-sierra-nevada-corporation-to-produce-revolutionary-technology/&amp;title=Solar%20Junction%20Teams%20up%20with%20Sierra%20Nevada%20Corporation%20to%20Produce%20Revolutionary%20Solar%20Technology"
+              title="LinkedIn"
+              target="_blank"
+            >
+              <i
+                class="fab fa-linkedin-in"
+                style="color: #0d557d; margin-top: 10px"
+              ></i> 
+            </a><br>
+           <span><a href=""><small>Join Us On LinkedIn</small></a></span> 
+            </div>
+          </div>
+
+          <div class="aside-text">
+            <div class="headquaters">
+              <p>
+                <span> HEADQUARTERS </span>
+              </p>
+              <hr />
+              <p>
+                8609 westwood center <br />
+                drive , suite 110 <br />Tysons , VA 22182
+              </p>
+            </div>
+
+            <div class="contact">
+              <p><span>CONTACT </span></p>
+              <hr />
+              <p><a href="">E.info@taqniainternational.com</a></p>
+            </div>
+
+            <div class="quicklinks">
+              <p><span> QUICK LINKS </span></p>
+              <hr />
+
+              <p>
+                <a href="">About Us</a><br />
+                <a href="">Services</a><br />
+                <a href="">News</a><br />
+                <a href="">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <div>
+            <span>© 2023 | All Rights Reserved</span>
+          </div>
+          <div class="powered">
+            <span>Powered by Nyenpandi</span>
+          </div>
+        </div>
+
+        <footer></footer>
+      </aside>
     </main>
     <script src="index.js"></script>
   </body>

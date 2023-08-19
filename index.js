@@ -1,5 +1,5 @@
 var navbar = document.getElementById("navbar");
-var list = document.getElementById("list");
+var list = document.getElementsByName("li");
 const links = navbar.getElementsByTagName("a");
 const image = document.getElementById("image");
 
